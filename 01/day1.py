@@ -8,7 +8,7 @@ def getElvesTotals(filename):
     return elves
 
 def sumElf(elf):
-    return sum(list(map(int,elf.split("\n"))))
+    return sum(map(int,elf.split("\n")))
 
 def part1(filename):
     elves = getElvesTotals(filename)
